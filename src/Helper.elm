@@ -3,6 +3,7 @@ module Helper exposing (..)
 import Html
 
 
+
 -- funciones basicas
 
 
@@ -65,6 +66,7 @@ onlyStudents users =
         (\u ->
             if u.uType == "Student" then
                 u.name
+
             else
                 ""
         )
